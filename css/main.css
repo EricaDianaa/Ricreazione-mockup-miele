@@ -1,0 +1,56 @@
+/* 
+@media screen and (min-width:320px){
+    body{
+    display: flex;
+     justify-content: center;
+}
+main{
+    display: flex;
+    background-color: lightyellow;
+flex-direction: column-reverse;
+ width:400px;
+    color: rgb(92, 63, 63);
+    font-size: 1.5em;
+    border-radius: 20px;
+}
+.text{
+padding: 40px;
+text-align: start;
+}
+
+.img1{
+        padding: 20px;
+display: flex;
+justify-content: center;
+
+}
+img{
+    width: 350px;
+}
+} */
+
+
+@media screen and (min-width:1200px){
+    body{
+    display: flex;
+     justify-content: center;
+}
+main{
+    display: flex;
+    background-color: lightyellow;
+   
+ width:1500px;
+    color: rgb(92, 63, 63);
+    font-size: 1.5em;
+    border-radius: 20px;
+}
+.text{
+padding-left: 40px;
+}
+
+.img1{
+        padding: 20px;
+
+}
+}
+

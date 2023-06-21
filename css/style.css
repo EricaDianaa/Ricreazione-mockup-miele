@@ -1,0 +1,57 @@
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 350px;
+    height: 350px;
+    display: flex;
+        flex-direction: column;
+        border:solid 1px gray;
+        border-radius: 75px;
+ 
+       
+}
+ button{
+align-items: center;
+}
+.card img{
+    width: 100%;
+    border-radius: 75px 75px 0px 0px;
+    /* flex-grow: 0.8; */
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+ 
+    margin: 0;
+    padding:10px 40px 0px ;
+    color: rgb(116, 67, 67);
+    background-color: rgb(238, 238, 210);
+    flex-grow: 8;
+    border-radius:  0px 0px 75px 75px;
+}
+.card-text h3,p,button{
+    margin: 1px;
+    padding: -0 ;
+}
+button{
+    width: 50%;
+    border-radius: 16px;
+font-weight: bold;
+    color: rgb(92, 63, 63);
+ background-color: rgb(241, 189, 121);
+ align-self: center;
+ 
+ padding: 3px;
+ margin-top: 20px;
+}
+
+.money{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.prezzo{
+    font-weight: bold;
+}
