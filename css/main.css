@@ -2,7 +2,7 @@
 @media screen and (min-width:350px){
     body{
     display: flex;
-     justify-content: center;
+
 }
 main{
     display: flex;
@@ -12,10 +12,13 @@ flex-direction: column-reverse;
     color: rgb(92, 63, 63);
     font-size: 1.5em;
     border-radius: 20px;
+align-items: center;
+margin: 0 auto;
 }
 .text{
 padding: 40px;
 text-align: start;
+align-items: center;
 }
 
 .img1{
@@ -29,11 +32,44 @@ img{
 }
 }
 
-
-@media screen and (min-width:1200px){
+@media screen and (min-width:576px){
     body{
     display: flex;
-     justify-content: center;
+
+}
+main{
+    display: flex;
+    background-color: lightyellow;
+flex-direction: column-reverse;
+ width:576px;
+    color: rgb(92, 63, 63);
+    font-size: 1.5em;
+    border-radius: 20px;
+align-items: center;
+margin: 0 auto;
+}
+.text{
+padding: 40px;
+text-align: start;
+align-items: center;
+}
+
+.img1{
+        padding: 20px;
+display: flex;
+justify-content: center;
+
+}
+img{
+    width: 520px;
+}
+}
+
+
+@media screen and (min-width:1441px){
+    body{
+    display: flex;
+  
    
 }
 main{
@@ -44,9 +80,12 @@ main{
     color: rgb(92, 63, 63);
     font-size: 1.5em;
     border-radius: 20px;
+    margin: 0 auto;
 }
 .text{
 padding-left: 40px;
+justify-content: center;
+
 }
 
 .img1{

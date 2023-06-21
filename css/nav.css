@@ -3,7 +3,7 @@ nav{
     background-color:lightyellow;
     border-radius: 50px;
     flex-direction: row;
-width:50%;
+width:100%;
 }
 
 .menu{
@@ -17,7 +17,7 @@ ul{
      display: flex;
     list-style-type: none;
    flex-grow:1;
-
+   align-items: center;
 }
 
 ul li{
@@ -28,8 +28,7 @@ height: 25px;
   width: 100%;
   margin: 5px;
   padding: 3px;
-  color: rgb(92, 63, 63);
-
+ color: rgb(92, 63, 63);
 }
 
 .shop {

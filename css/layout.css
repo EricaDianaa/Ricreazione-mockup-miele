@@ -1,0 +1,28 @@
+h1{
+    font-size: 2.6em;
+    margin: 20px;
+    color: rgb(116, 60, 60);
+    text-align: center;
+}
+h2{
+    font-size: 2.5em;
+    margin: 50px 50px 30px ;
+    color: rgb(116, 60, 60);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/* @media screen and (min-width:576) {
+    .card{
+        width: 250px;
+        height: 150px;
+        display: flex;
+            flex-direction: column;
+            border:solid 1px gray;
+            border-radius: 75px;
+          
+    }
+
+} */

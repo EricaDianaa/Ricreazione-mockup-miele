@@ -1,16 +1,17 @@
 .cards{
     display: flex;
-    justify-content: center;
+  justify-content: space-around;
+flex-wrap: wrap;
+     gap: 30px;
 }
 .card{
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     display: flex;
         flex-direction: column;
         border:solid 1px gray;
         border-radius: 75px;
- 
-       
+    
 }
  button{
 align-items: center;
@@ -55,3 +56,15 @@ font-weight: bold;
 .prezzo{
     font-weight: bold;
 }
+
+@media screen and (min-width:768) {
+  
+.cards{
+    display: flex;
+  justify-content: space-around;
+ flex-wrap: nowrap;
+     gap: 0;
+}
+}
+
+   
